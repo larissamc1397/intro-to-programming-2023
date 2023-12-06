@@ -2,7 +2,7 @@ var today = new Date();
 var thisYear = today.getFullYear();
 var footer = document.querySelector('footer');
 var copyright = document.createElement('p');
-copyright.innerHTML = 'Larissa Martinez' + thisYear;
+copyright.innerHTML = 'Larissa Martinez' + ' ' + thisYear;
 footer.appendChild(copyright);
 var skills = ['JavaScript', 'HTML', 'CSS'];
 var skillsSelection = document.getElementById('skills');
